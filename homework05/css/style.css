@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(30, 34, 33);
+}
+
+table {
+  margin-left: 20px;
+  margin-top: 50px;
+  width: 800px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+table:first-child {
+  margin-bottom: 50px;
+  border: 1px solid #fff;
+}
+table:nth-child(2) {
+  margin-bottom: 50px;
+  border: 1px solid #fff;
+}
+
+table:nth-child(3) {
+  border: 1px solid #fff;
+}
+
+th {
+  text-align: left;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+td {
+  width: 400px;
+  color: #696969;
+  border-bottom: 1px solid #fff;
+}
+
+th,
+td {
+  padding: 10px;
+  height: 20px;
+}
+td:first-child {
+  width: 400px;
+  min-width: 0;
+}
+
+.two td:nth-child(1) {
+  width: 20px;
+}
+
+.three td:nth-child(1) {
+  width: 20px;
+}
+
+th:last-child {
+  text-align: right;
+}
+td:last-child {
+  width: 80px;
+  min-width: 0;
+  text-align: right;
+}
+tr:nth-child(odd) {
+  background-color: transparent;
+}
+
+label {
+  padding: 0 5px;
+  border: 1px solid #eee;
+}
+
+input:checked + label {
+  background: #0f5481;
+  color: #fff;
+}
+
+#triangle-down {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid red;
+}
+
+table tr:last-child td {
+  border-bottom: none;
+}
+
+input::placeholder {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.search {
+  background-color: transparent;
+  border: 1px solid white;
+  height: 27px;
+}
+
+.treugolnik_niz {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid blue;
+}
+
+.content::after {
+  content: "∇";
+  margin-left: 7px;
+}
