@@ -11,6 +11,7 @@ body {
 table {
   margin-left: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 800px;
   height: 300px;
   border-radius: 10px;
