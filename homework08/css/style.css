@@ -73,7 +73,7 @@ a {
 
 .menu ul li a {
   color: #000;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 28px;
   font-style: normal;
   font-weight: 400;
@@ -90,7 +90,7 @@ a {
 
 .header_title {
   color: #fff;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 400;
@@ -100,7 +100,7 @@ a {
 
 .header_paragraph {
   color: var(--white, #fff);
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -117,7 +117,7 @@ a {
   border-radius: 15px;
   background: var(--black, #1b2437);
   color: var(--white, #fff);
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -148,7 +148,7 @@ a {
 
 .collection_header_1 {
   color: var(--white, #fff);
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
@@ -157,7 +157,7 @@ a {
 
 .collection_text_1 {
   color: #fff;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -170,7 +170,7 @@ a {
   border-radius: 8px;
   background: var(--white, #fff);
   opacity: 0.5;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -198,7 +198,7 @@ a {
 
 .collection_header {
   color: var(--black, #1b2437);
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 900;
@@ -242,7 +242,7 @@ a {
   align-items: center;
   justify-content: center;
   color: #000;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -272,7 +272,7 @@ a {
 
 .section_name {
   color: var(--black, #1b2437);
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -304,7 +304,7 @@ a {
 
 .product_header {
   color: #000;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 900;
@@ -314,7 +314,7 @@ a {
 
 .product_text {
   color: #000;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
@@ -323,7 +323,7 @@ a {
 
 .product_price {
   color: #000;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
@@ -340,7 +340,7 @@ a {
   border: 0;
   color: var(--white, #fff);
   text-align: center;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -360,7 +360,7 @@ a {
   background: var(--black, #1b2437);
   color: var(--white, #fff);
   text-align: center;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -420,7 +420,7 @@ a {
 .icon_text {
   display: flex;
   color: #000;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -432,7 +432,7 @@ a {
 .icon_text_1 {
   display: flex;
   color: #000;
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -473,7 +473,7 @@ a {
 
 .columt_title {
   color: var(--2, #212353);
-  font-family: Avenir;
+  font-family: "Prompt", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 900;
@@ -483,7 +483,7 @@ a {
 
 .columt_title_1 {
   color: var(--2, #212353);
-  font-family: Avenir;
+  font-family: "Prompt", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 900;
@@ -524,7 +524,7 @@ a {
 .footer_1_paragraph {
   width: 255px;
   color: #5c5c5c;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -538,13 +538,9 @@ footer {
   margin-bottom: 24px;
 }
 
-.footer_second_column,
-.footer_third_column {
-}
-
 .columt_title {
   color: #000;
-  font-family: Playfair Display;
+  font-family: "Playfair Display", serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 900;
@@ -553,7 +549,7 @@ footer {
 
 .footer_paragraph {
   color: var(--gray-6, #8e8e93);
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -569,7 +565,7 @@ footer {
 
 .copyright_paragraph p {
   color: var(--gray-6, #8e8e93);
-  font-family: Mulish;
+  font-family: "Mulish", sans-serif;
   font-size: 12px;
   font-style: normal;
   font-weight: 700;
