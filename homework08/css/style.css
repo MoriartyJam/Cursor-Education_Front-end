@@ -140,7 +140,7 @@ a {
   display: flex;
   align-items: flex-end;
   border-radius: 16px;
-  background-image: url(./media/images/collection1.png);
+  background-image: url(./images/collection1.png);
   grid-area: a;
   padding-left: 32px;
   padding-bottom: 22px;
