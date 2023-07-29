@@ -83,7 +83,7 @@ a {
 .header {
   width: auto;
   height: 569px;
-  background-image: url("../homework08/media/images/hero.png");
+  background-image: url(../homework08/media/images/hero.png);
   padding-top: 103px;
   padding-left: 164px;
 }
