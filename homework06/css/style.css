@@ -217,14 +217,10 @@ body {
 }
 
 .table {
-  display: grid;
-  gap: 200px;
-  height: 100vh;
-  grid-template-rows: 300px 300px;
-  grid-template-columns: 300px 300px;
-  justify-content: center;
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
   margin-top: 149px;
-  margin-right: 293px;
 }
 
 .table_title {
@@ -487,6 +483,13 @@ body {
   top: 3px;
 }
 
+favorite_styled:after {
+  content: url("/homework06/media/images/1.svg");
+  margin-left: 12px;
+  position: relative;
+  top: 3px;
+}
+
 .footer {
   display: flex;
   padding-left: 190px;
@@ -546,15 +549,19 @@ body {
   margin-bottom: 10px;
 }
 
-.column_4_paragraph {
+.list_icons {
   display: flex;
   margin-bottom: 10px;
 }
 
-.column_picture {
+.header_list {
+  margin-bottom: 30px;
+}
+
+a img {
   width: 50px;
   height: 50px;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .copyright {
@@ -576,4 +583,30 @@ body {
   flex-direction: column;
   justify-content: center;
   margin-right: 697px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header_list {
+  color: var(--2, #212353);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 160%; /* 25.6px */
+}
+
+li a {
+  color: var(--2, #212353);
+  font-family: Avenir;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 250%; /* 40px */
 }
