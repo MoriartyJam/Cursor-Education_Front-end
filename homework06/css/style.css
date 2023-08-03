@@ -20,8 +20,12 @@ body {
 }
 
 .container {
+  /*
   padding-left: 240px;
   padding-right: 240px;
+  */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .push {
